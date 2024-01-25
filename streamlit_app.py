@@ -42,7 +42,7 @@ try:
     streamlit.dataframe(back_from_function)
     
 #import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + this_fruit_choice)
 
 streamlit.header("The fruit load list contains;")
 #Snowflake-related functions
